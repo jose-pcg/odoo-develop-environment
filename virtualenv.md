@@ -22,8 +22,8 @@ Create your environment
 $ virtualenv ~/.virtualenvs/odoo10
 ```
 
-Access to your new environment
-------------------------------
+Access to your new environment:
+-------------------------------
 ```
 $ source ~/.virtualenvs/odoo10/bin/activate
 ```
@@ -35,8 +35,8 @@ Or list the packages installed in that environment
 ```
 $ pip list
 ```
-Close the environment
----------------------
+Close the environment:
+----------------------
 Just type
 ```
 $ deactivate
