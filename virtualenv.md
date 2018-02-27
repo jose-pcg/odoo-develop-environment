@@ -19,7 +19,7 @@ $ mkdir ~/.virtualenvs
 ```
 Create your environment
 ```
-$ virtualenv ~/.virtualenvs/odoo10
+$ virtualenv --python=/usr/bin/python2.7 ~/.virtualenvs/odoo10
 ```
 
 Access to your new environment:
