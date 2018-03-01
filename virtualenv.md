@@ -19,8 +19,9 @@ $ mkdir ~/.virtualenvs
 ```
 Create your environment
 ```
-$ virtualenv --python=/usr/bin/python2.7 ~/.virtualenvs/odoo10
+$ virtualenv --python=`which python2.7` ~/.virtualenvs/odoo10
 ```
+Note: See the `which python2.7` thing? Here you can specify your python version. Eg: --python=`which python3.5`
 
 Access to your new environment:
 -------------------------------
